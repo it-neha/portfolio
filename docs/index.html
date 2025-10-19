@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neha Parmar | Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+        <link rel="stylesheet" href="./assets/css/app.css" />
+
+  </head>
+  <body data-page="home">
+    <nav id="primaryNav" class="navbar navbar-expand-lg  
+ fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="index.html">
+          <i class="fa-solid fa-code me-2"></i>
+          <span id="nav-name">Neha Parmar</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experience.html">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="education.html">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="overflow-hidden">
+      <header id="hero" class="hero-home position-relative">
+        <div class="hero-background">
+          <span class="hero-glow hero-glow-1"></span>
+          <span class="hero-glow hero-glow-2"></span>
+          <span class="hero-glow hero-glow-3"></span>
+          <span class="hero-grid"></span>
+        </div>
+        <div class="container position-relative">
+          <div class="row align-items-center g-5">
+            <div class="col-xl-7">
+              <div class="hero-copy reveal-up">
+                <span class="hero-eyebrow" id="hero-role"></span>
+                <h1 class="hero-title display-3 fw-bold mb-3" id="hero-name"></h1>
+                <p class="typed-wrap mb-3">
+                  <span class="typed-prefix">Crafting&nbsp;</span><span id="typed-headline" class="typed-headline"></span>
+                </p>
+                <p class="hero-summary text-white-75 pe-lg-5" id="hero-summary"></p>
+                <div class="d-flex flex-wrap gap-3 align-items-center mt-4" id="hero-actions"></div>
+                <div class="stats-panel mt-5">
+                  <ul class="list-unstyled d-grid gap-3 gap-lg-4 stats-grid" id="hero-stats"></ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 pt-4">
+              <div class="hero-profile reveal-up delay-1">
+                <div class="profile-frame">
+                  <div class="floating-badge badge-top-left">
+                    <i class="fa-solid fa-circle-check me-2"></i>Available for Collaboration
+                  </div>
+                  <div class="floating-badge badge-bottom-right">
+                    <i class="fa-solid fa-globe me-2"></i>Remote / Hybrid
+                  </div>
+                  <img src="./assets/images/profile.jpg" alt="Portrait of Neha Parmar" class="profile-image" loading="lazy" decoding="async" />
+                  <div class="profile-glow"></div>
+                </div>
+                <div class="profile-card mt-4">
+                  <h2 class="h5 text-uppercase tracking-wide text-primary text-center mb-3">Connect</h2>
+                  <div class="d-flex flex-column gap-3" id="social-links"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section id="about" class="section-spacing">
+        <div class="container p-4">
+          <div class="section-heading text-center reveal-up">
+            <span class="section-eyebrow">Profile</span>
+            <h2 class="section-title">Engineer. Builder. Collaborator.</h2>
+            <p class="lead text-body-secondary mt-3 mx-auto mw-3xl" id="about-summary"></p>
+          </div>
+          <div class="row g-4 mt-4 align-items-stretch">
+            <div class="col-lg-4">
+              <div class="pill-card h-100 reveal-up delay-1">
+                <div class="icon-circle icon-circle-lg mb-3">
+                  <i class="fa-solid fa-compass"></i>
+                </div>
+                <h3 class="h5 mb-2">Core Values</h3>
+                <ul class="list-unstyled vstack gap-3 text-body-secondary text-start" id="core-values"></ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="pill-card h-100">
+                <div class="icon-circle icon-circle-lg mb-3">
+                  <i class="fa-solid fa-diagram-project"></i>
+                </div>
+                <h3 class="h5 mb-2">Focus Areas</h3>
+                <p class="text-body-secondary mb-0">
+                  Building resilient platforms, orchestrating modern delivery pipelines, and obsessing over experience-led engineering. Tap into the full journey below.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="pill-card h-100 reveal-up delay-3">
+                <div class="icon-circle icon-circle-lg mb-3">
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                </div>
+                <h3 class="h5 mb-2">Explore Next</h3>
+                <ul class="list-unstyled vstack gap-2 quick-links">
+                  <li><a class="quick-link" href="experience.html"><i class="fa-solid fa-briefcase me-2"></i>Experience Journey</a></li>
+                  <li><a class="quick-link" href="projects.html"><i class="fa-solid fa-lightbulb me-2"></i>Project Showcase</a></li>
+                  <li><a class="quick-link" href="skills.html"><i class="fa-solid fa-layer-group me-2"></i>Technical Toolkit</a></li>
+                  <li><a class="quick-link" href="education.html"><i class="fa-solid fa-user-graduate me-2"></i>Education & Certifications</a></li>
+                  <li><a class="quick-link" href="contact.html"><i class="fa-solid fa-paper-plane me-2"></i>Contact & Availability</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4 text-center text-white-50">
+      <div class="container">
+        <small id="footer-text"></small>
+      </div>
+    </footer>
+
+    <script src="./assets/js/jQuery.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
