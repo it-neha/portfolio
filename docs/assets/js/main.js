@@ -7,41 +7,41 @@ const resumeData = {
     "full-stack platforms that feel effortless.",
     "cloud-native systems with measurable impact.",
     "DevOps pipelines that ship with confidence.",
-    "experiences that delight humans and scale globally."
+    "experiences that delight humans and scale globally.",
   ],
   coreValues: [
     "Deliver scalable solutions that balance speed, quality, and maintainability.",
     "Champion collaborative Agile workflows and empathetic communication across teams.",
-    "Continuously evolve skills across cloud, DevOps, and full-stack ecosystems."
+    "Continuously evolve skills across cloud, DevOps, and full-stack ecosystems.",
   ],
   contact: {
     location: "Surat, India",
     phone: "+91 8487896107",
     email: "nparmar1587@gmail.com",
-    website: "https://www.reallygreatsite.com",
-    resume: "./assets/images/resume.pdf"
+    website: "https://it-neha.github.io/portfolio/",
+    resume: "./assets/images/resume.pdf",
   },
   heroHighlights: [
     {
       icon: "fa-briefcase",
       label: "Current Role",
-      value: "Full Stack Developer at Engross Infotech"
+      value: "Full Stack Developer at Engross Infotech",
     },
     {
       icon: "fa-diagram-project",
       label: "Core Strength",
-      value: "CI/CD, Cloud Deployments, API Integrations"
+      value: "CI/CD, Cloud Deployments, API Integrations",
     },
     {
       icon: "fa-user-graduate",
       label: "Education",
-      value: "B.Sc. IT, Veer Narmad South Gujarat University"
+      value: "B.Sc. IT, Veer Narmad South Gujarat University",
     },
     {
       icon: "fa-chart-line",
       label: "Mindset",
-      value: "Iterate, measure, refine"
-    }
+      value: "Iterate, measure, refine",
+    },
   ],
   experience: [
     {
@@ -57,9 +57,9 @@ const resumeData = {
         "Drive sprint planning, code reviews, and debugging efforts to uplift code quality and delivery efficiency.",
         "Built production-ready features while transitioning prototypes into stable deliverables within Agile cadences.",
         "Explored DevSecOps workflows, gaining exposure to Terraform, AWS services, and observability stacks.",
-        "Supported CI/CD optimization initiatives and contributed to improving deployment visibility."
+        "Supported CI/CD optimization initiatives and contributed to improving deployment visibility.",
       ],
-      tags: ["Full Stack", "Cloud", "Agile"]
+      tags: ["Full Stack", "Cloud", "Agile"],
     },
     {
       company: "Engross Infotech",
@@ -72,10 +72,10 @@ const resumeData = {
         "Practiced JavaScript with jQuery and AJAX to handle DOM interactions and API requests.",
         "Built small React components and explored hooks, state/props, and basic routing.",
         "Gained introductory experience with .NET for creating simple APIs.",
-        "Used Git and GitHub for basic version control and collaboration."
+        "Used Git and GitHub for basic version control and collaboration.",
       ],
-      tags: ["Internship", "HTML/CSS", "React", ".NET", "jQuery/AJAX"]
-    }
+      tags: ["Internship", "HTML/CSS", "React", ".NET", "jQuery/AJAX"],
+    },
   ],
   projects: [
     {
@@ -83,56 +83,106 @@ const resumeData = {
       stack: ".NET API · React",
       summary:
         "Customer feedback management platform featuring Stripe payment integration, webhook orchestration via ngrok, and audiovisual capture with SMTP-based notifications.",
-      highlights: ["Stripe payments & webhooks", "Audio / video capture workflows", "Automated email notifications"]
+      highlights: [
+        "Stripe payments & webhooks",
+        "Audio / video capture workflows",
+        "Automated email notifications",
+      ],
     },
     {
       name: "LikedIn.io",
       stack: ".NET MVC · Browser Automation",
       summary:
         "Web application enabling professionals to search, bookmark, and organize LikedIn posts with secure authentication and extension-driven downloads.",
-      highlights: ["LikedIn OAuth integration", "Saved post organization", "Browser extension delivery"]
+      highlights: [
+        "LikedIn OAuth integration",
+        "Saved post organization",
+        "Browser extension delivery",
+      ],
     },
     {
       name: "CCM-Progleasing",
       stack: ".NET · AWS Cloud",
       summary:
         "Multi-application AWS deployment leveraging EKS, CircleCI pipelines, Octopus Deploy orchestration, and ArgoCD for Kubernetes operations accompanied by Terraform automation.",
-      highlights: ["CircleCI + Octopus Deploy", "AWS EKS with ArgoCD", "Terraform infrastructure provisioning"]
+      highlights: [
+        "CircleCI + Octopus Deploy",
+        "AWS EKS with ArgoCD",
+        "Terraform infrastructure provisioning",
+      ],
     },
     {
       name: "PodBooster",
       stack: "Python · Django",
       summary:
         "Podcast growth toolkit pairing targeted Google Ads campaign management with audience verification, email relay workflows, and embedded audio playback.",
-      highlights: ["Google Ads campaign automation", "reCAPTCHA verification", "Shiwasa audio player integration"]
-    }
+      highlights: [
+        "Google Ads campaign automation",
+        "reCAPTCHA verification",
+        "Shiwasa audio player integration",
+      ],
+    },
+    {
+      name: "Smart Health Prediction (Internship Project)",
+      stack: "PHP · Laravel",
+      summary:
+        "Health prediction system that allows users to enter symptoms and receive possible disease predictions, featuring a doctor directory, patient feedback module, and an administrator dashboard for system management.",
+      highlights: [
+        "Symptom-based disease prediction",
+        "Doctor contact directory",
+        "User feedback and admin dashboard",
+      ],
+    },
   ],
   skills: [
     {
       category: "Programming & Frameworks",
       icon: "fa-code",
-      items: [".NET", "React", "Java", "Python", "Django", "Android", ".NET MVC", "Vue.js", "JavaScript", "C/C++", "PHP", "Laravel", "VB.NET"]
+      items: [
+        ".NET",
+        "React",
+        "Java",
+        "Python",
+        "Django",
+        "Android",
+        ".NET MVC",
+        "Vue.js",
+        "JavaScript",
+        "C/C++",
+        "PHP",
+        "Laravel",
+        "VB.NET",
+      ],
     },
     {
       category: "Databases",
       icon: "fa-database",
-      items: ["MySQL", "MongoDB", "SQL Server", "MySQL Workbench"]
+      items: ["MySQL", "MongoDB", "SQL Server", "MySQL Workbench"],
     },
     {
       category: "DevOps & Tools",
       icon: "fa-gears",
-      items: ["CI/CD", "Octopus Deploy", "ArgoCD", "Git/GitHub", "CircleCI", "CyberArk", "Jira", "SonarQube"]
+      items: [
+        "CI/CD",
+        "Octopus Deploy",
+        "ArgoCD",
+        "Git/GitHub",
+        "CircleCI",
+        "CyberArk",
+        "Jira",
+        "SonarQube",
+      ],
     },
     {
       category: "Cloud & Infrastructure",
       icon: "fa-cloud",
-      items: ["AWS", "Terraform", "Kubernetes (EKS)"]
+      items: ["AWS", "Terraform", "Kubernetes (EKS)"],
     },
     {
       category: "Monitoring & Communication",
       icon: "fa-chart-area",
-      items: ["Splunk", "Grafana", "RabbitMQ", "Redis", "Slack", "Google Ads"]
-    }
+      items: ["Splunk", "Grafana", "RabbitMQ", "Redis", "Slack", "Google Ads"],
+    },
   ],
   education: {
     degree: "Bachelor of Science in Information Technology",
@@ -141,16 +191,17 @@ const resumeData = {
     grade: "CGPA: 7.8 / 10",
     highlights: [
       "Focused on full-stack paradigms, database design, and software engineering fundamentals.",
-      "Completed capstone prototypes emphasising reliability and user-centred design."
-    ]
+      "Completed capstone prototypes emphasising reliability and user-centred design.",
+    ],
   },
   certifications: [
     {
       title: "Android Development Certificate",
       issuer: "Self-paced specialization",
       period: "Aug 2023 – Jan 2024",
-      description: "Specialised in Android app architecture, API integration, and delivering intuitive mobile experiences."
-    }
+      description:
+        "Specialised in Android app architecture, API integration, and delivering intuitive mobile experiences.",
+    },
   ],
   themes: [
     {
@@ -162,9 +213,9 @@ const resumeData = {
         background: "#050816",
         accent: "#22d3ee",
         primary: "#6366f1",
-        secondary: "#a855f7"
+        secondary: "#a855f7",
       },
-      darkMode: true
+      darkMode: true,
     },
     {
       id: "dawn-horizon",
@@ -175,9 +226,9 @@ const resumeData = {
         background: "#f8f5f2",
         accent: "#f97316",
         primary: "#6366f1",
-        secondary: "#facc15"
+        secondary: "#facc15",
       },
-      darkMode: false
+      darkMode: false,
     },
     {
       id: "emerald-matrix",
@@ -188,9 +239,9 @@ const resumeData = {
         background: "#031716",
         accent: "#34d35cff",
         primary: "#14ce90ff",
-        secondary: "#0b4a56ff"
+        secondary: "#0b4a56ff",
       },
-      darkMode: true
+      darkMode: true,
     },
     {
       id: "crimson-spark",
@@ -201,9 +252,9 @@ const resumeData = {
         background: "#111014",
         accent: "#f87171",
         primary: "#ef4444",
-        secondary: "#f59e0b"
+        secondary: "#f59e0b",
       },
-      darkMode: true
+      darkMode: true,
     },
     {
       id: "noir-luxe",
@@ -214,9 +265,9 @@ const resumeData = {
         background: "#090909",
         accent: "#fbbf24",
         primary: "#d1a054",
-        secondary: "#f59e0b"
+        secondary: "#f59e0b",
       },
-      darkMode: true
+      darkMode: true,
     },
     {
       id: "azure-skyline",
@@ -227,9 +278,9 @@ const resumeData = {
         background: "#f5f9ff",
         accent: "#0ea5e9",
         primary: "#2563eb",
-        secondary: "#22d3ee"
+        secondary: "#22d3ee",
       },
-      darkMode: false
+      darkMode: false,
     },
     {
       id: "charcoal-neon",
@@ -240,22 +291,23 @@ const resumeData = {
         background: "#0b0f1d",
         accent: "#f0abfc",
         primary: "#22d3ee",
-        secondary: "#f59e0b"
+        secondary: "#f59e0b",
       },
-      darkMode: true
+      darkMode: true,
     },
     {
       id: "terracotta-zen",
       name: "Terracotta Zen",
-      description: "Earthy terracotta and sage tones for a calm, creative feel.",
+      description:
+        "Earthy terracotta and sage tones for a calm, creative feel.",
       colors: {
         mode: "light",
         background: "#fdf8f4",
         accent: "#d97706",
         primary: "#f97316",
-        secondary: "#84cc16"
+        secondary: "#84cc16",
       },
-      darkMode: false
+      darkMode: false,
     },
     {
       id: "mono-glass",
@@ -266,9 +318,9 @@ const resumeData = {
         background: "#0f172a",
         accent: "#60a5fa",
         primary: "#38bdf8",
-        secondary: "#22d3ee"
+        secondary: "#22d3ee",
       },
-      darkMode: true
+      darkMode: true,
     },
     {
       id: "vintage-futura",
@@ -279,11 +331,11 @@ const resumeData = {
         background: "#fef6e4",
         accent: "#f59e0b",
         primary: "#0ea5e9",
-        secondary: "#f97316"
+        secondary: "#f97316",
       },
-      darkMode: false
-    }
-  ]
+      darkMode: false,
+    },
+  ],
 };
 
 $(function () {
@@ -352,14 +404,14 @@ function populateHeroSection() {
       label: "Download Resume",
       icon: "fa-download",
       href: resumeData.contact.resume,
-      className: "btn btn-primary btn-lg shadow"
+      className: "btn btn-primary btn-lg shadow",
     },
     {
       label: "Email Neha",
       icon: "fa-envelope",
       href: `mailto:${resumeData.contact.email}`,
-      className: "btn btn-outline-light btn-lg"
-    }
+      className: "btn btn-outline-light btn-lg",
+    },
   ];
 
   actions.forEach((action) => {
@@ -405,23 +457,23 @@ function renderHeroSocials() {
     {
       icon: "fa-location-dot",
       label: resumeData.contact.location,
-      href: `https://maps.app.goo.gl/RQF7LcXpLnsiiGzr7`
+      href: `https://maps.app.goo.gl/RQF7LcXpLnsiiGzr7`,
     },
     {
       icon: "fa-phone",
       label: resumeData.contact.phone,
-      href: `tel:${resumeData.contact.phone.replace(/\s+/g, "")}`
+      href: `tel:${resumeData.contact.phone.replace(/\s+/g, "")}`,
     },
     {
       icon: "fa-envelope",
       label: resumeData.contact.email,
-      href: `mailto:${resumeData.contact.email}`
+      href: `mailto:${resumeData.contact.email}`,
     },
     {
       icon: "fa-globe",
       label: "Portfolio Site",
-      href: resumeData.contact.website
-    }
+      href: resumeData.contact.website,
+    },
   ];
 
   socials.forEach((item) => {
@@ -467,7 +519,9 @@ function populateExperienceSection() {
               <div>
                 <h3 class="h4 mb-1">${role.role}</h3>
                 <p class="mb-0 text-primary fw-semibold">${role.company}</p>
-                <span class="badge bg-secondary-subtle text-secondary-emphasis mt-2">${role.employmentType}</span>
+                <span class="badge bg-secondary-subtle text-secondary-emphasis mt-2">${
+                  role.employmentType
+                }</span>
               </div>
               <div class="text-md-end">
                 <span class="text-muted d-block">${role.period}</span>
@@ -476,13 +530,19 @@ function populateExperienceSection() {
             </div>
             <ul class="timeline-list list-unstyled vstack gap-2">
               ${role.achievements
-        .map((achievement) => `<li><i class="fa-solid fa-circle-check me-2 text-primary"></i>${achievement}</li>`)
-        .join("")}
+                .map(
+                  (achievement) =>
+                    `<li><i class="fa-solid fa-circle-check me-2 text-primary"></i>${achievement}</li>`
+                )
+                .join("")}
             </ul>
             <div class="d-flex flex-wrap gap-2 mt-4">
               ${role.tags
-        .map((tag) => `<span class="badge rounded-pill bg-primary-soft text-primary">${tag}</span>`)
-        .join("")}
+                .map(
+                  (tag) =>
+                    `<span class="badge rounded-pill bg-primary-soft text-primary">${tag}</span>`
+                )
+                .join("")}
             </div>
           </div>
         </div>
@@ -504,13 +564,20 @@ function populateProjectsSection() {
           <div class="card-body p-4 d-flex flex-column">
             <div class="d-flex align-items-center justify-content-between mb-3">
               <h3 class="h5 mb-0">${project.name}</h3>
-              <span class="badge bg-primary-soft text-primary text-uppercase">${project.stack}</span>
+              <span class="badge bg-primary-soft text-primary text-uppercase">${
+                project.stack
+              }</span>
             </div>
-            <p class="text-body-secondary mb-3 flex-grow-1">${project.summary}</p>
+            <p class="text-body-secondary mb-3 flex-grow-1">${
+              project.summary
+            }</p>
             <ul class="list-unstyled vstack gap-2 small text-body-secondary">
               ${project.highlights
-        .map((highlight) => `<li><i class="fa-solid fa-arrow-trend-up me-2 text-primary"></i>${highlight}</li>`)
-        .join("")}
+                .map(
+                  (highlight) =>
+                    `<li><i class="fa-solid fa-arrow-trend-up me-2 text-primary"></i>${highlight}</li>`
+                )
+                .join("")}
             </ul>
           </div>
         </div>
@@ -538,14 +605,17 @@ function populateSkillsSection() {
             </div>
             <div class="d-flex flex-wrap gap-2">
               ${skillGroup.items
-        .map(
-          (item) => `
-                    <span class="skill-badge" data-skill-group="${skillGroup.category.replace(/[\s&]/g, "-")}">
+                .map(
+                  (item) => `
+                    <span class="skill-badge" data-skill-group="${skillGroup.category.replace(
+                      /[\s&]/g,
+                      "-"
+                    )}">
                       <i class="fa-solid fa-wand-magic-sparkles me-2"></i>${item}
                     </span>
                   `
-        )
-        .join("")}
+                )
+                .join("")}
             </div>
           </div>
         </div>
@@ -563,11 +633,16 @@ function populateEducationSection() {
       <h3 class="h4">${education.degree}</h3>
       <p class="text-primary fw-semibold mb-1">${education.institution}</p>
       <span class="text-muted d-block">${education.period}</span>
-      <span class="badge bg-primary-soft text-primary mt-3">${education.grade}</span>
+      <span class="badge bg-primary-soft text-primary mt-3">${
+        education.grade
+      }</span>
       <ul class="list-unstyled vstack gap-2 mt-4 text-body-secondary">
         ${education.highlights
-      .map((item) => `<li><i class="fa-solid fa-book-open me-2 text-primary"></i>${item}</li>`)
-      .join("")}
+          .map(
+            (item) =>
+              `<li><i class="fa-solid fa-book-open me-2 text-primary"></i>${item}</li>`
+          )
+          .join("")}
       </ul>
     </div>
   `);
@@ -607,26 +682,26 @@ function populateContactSection() {
       icon: "fa-location-dot",
       title: "Location",
       value: resumeData.contact.location,
-      href: `https://maps.app.goo.gl/RQF7LcXpLnsiiGzr7`
+      href: `https://maps.app.goo.gl/RQF7LcXpLnsiiGzr7`,
     },
     {
       icon: "fa-phone",
       title: "Phone",
       value: resumeData.contact.phone,
-      href: `tel:${resumeData.contact.phone.replace(/\s+/g, "")}`
+      href: `tel:${resumeData.contact.phone.replace(/\s+/g, "")}`,
     },
     {
       icon: "fa-envelope",
       title: "Email",
       value: resumeData.contact.email,
-      href: `mailto:${resumeData.contact.email}`
+      href: `mailto:${resumeData.contact.email}`,
     },
     {
       icon: "fa-globe",
       title: "Website",
       value: resumeData.contact.website,
-      href: resumeData.contact.website
-    }
+      href: resumeData.contact.website,
+    },
   ];
 
   contactInfo.forEach((info) => {
@@ -639,10 +714,11 @@ function populateContactSection() {
             </span>
             <div>
               <h4 class="h6 text-uppercase text-primary mb-1">${info.title}</h4>
-              ${info.href
-        ? `<a class="stretched-link text-decoration-none text-body" href="${info.href}" target="_blank" rel="noopener">${info.value}</a>`
-        : `<span class="text-body">${info.value}</span>`
-      }
+              ${
+                info.href
+                  ? `<a class="stretched-link text-decoration-none text-body" href="${info.href}" target="_blank" rel="noopener">${info.value}</a>`
+                  : `<span class="text-body">${info.value}</span>`
+              }
             </div>
           </div>
         </div>
@@ -655,14 +731,17 @@ function populateContactSection() {
 
 function populateFooter() {
   const year = new Date().getFullYear();
-  $("#footer-text").text(`© ${year} ${resumeData.name}. Crafted with curiosity and care.`);
+  $("#footer-text").text(
+    `© ${year} ${resumeData.name}. Crafted with curiosity and care.`
+  );
 }
 
 function highlightNavigation() {
   const currentPage = $("body").data("page") || "";
   if (!currentPage) return;
 
-  const activeHref = currentPage === "home" ? "index.html" : `${currentPage}.html`;
+  const activeHref =
+    currentPage === "home" ? "index.html" : `${currentPage}.html`;
 
   $(".main-nav .nav-link").each(function () {
     const href = $(this).attr("href") || "";
@@ -674,7 +753,12 @@ function highlightNavigation() {
 
 function initTypedHeadline() {
   const $typed = $("#typed-headline");
-  if (!$typed.length || !Array.isArray(resumeData.taglines) || !resumeData.taglines.length) return;
+  if (
+    !$typed.length ||
+    !Array.isArray(resumeData.taglines) ||
+    !resumeData.taglines.length
+  )
+    return;
 
   const phrases = resumeData.taglines;
   let phraseIndex = 0;
@@ -762,7 +846,10 @@ function injectThemeMetadata() {
     $existing.remove();
   }
 
-  const $script = $("<script>", { id: "theme-config", type: "application/json" });
+  const $script = $("<script>", {
+    id: "theme-config",
+    type: "application/json",
+  });
   $script.text(JSON.stringify(resumeData.themes, null, 2));
   $("body").append($script);
 }
@@ -778,7 +865,11 @@ function setupThemes() {
 
   const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
   const fallbackTheme = resumeData.themes[0].id;
-  const initialTheme = resumeData.themes.some((theme) => theme.id === storedTheme) ? storedTheme : fallbackTheme;
+  const initialTheme = resumeData.themes.some(
+    (theme) => theme.id === storedTheme
+  )
+    ? storedTheme
+    : fallbackTheme;
   applyTheme(initialTheme);
 }
 
@@ -804,7 +895,11 @@ function renderThemeSwitcher() {
   const $grid = $switcher.find(".theme-grid");
 
   resumeData.themes.forEach((theme) => {
-    const modeLabel = theme.darkMode ? (theme.colors.mode === "light" ? "Dual Tone" : "Dark UI") : "Light UI";
+    const modeLabel = theme.darkMode
+      ? theme.colors.mode === "light"
+        ? "Dual Tone"
+        : "Dark UI"
+      : "Light UI";
     const $item = $(`
       <button class="theme-item" type="button" role="option" data-theme-id="${theme.id}" data-theme-mode="${theme.colors.mode}">
         <span class="theme-swatch" style="--swatch-primary:${theme.colors.primary}; --swatch-accent:${theme.colors.accent}; --swatch-secondary:${theme.colors.secondary};"></span>
@@ -832,12 +927,14 @@ function renderThemeSwitcher() {
     $toggle.attr("aria-expanded", String(!isOpen));
   });
 
-  $(document).off("click.themeSwitcher").on("click.themeSwitcher", (event) => {
-    if (!$(event.target).closest("#theme-switcher").length) {
-      $switcher.removeClass("open");
-      $toggle.attr("aria-expanded", "false");
-    }
-  });
+  $(document)
+    .off("click.themeSwitcher")
+    .on("click.themeSwitcher", (event) => {
+      if (!$(event.target).closest("#theme-switcher").length) {
+        $switcher.removeClass("open");
+        $toggle.attr("aria-expanded", "false");
+      }
+    });
 
   $panel.find(".theme-item").on("click", function () {
     const themeId = $(this).data("theme-id");
@@ -848,7 +945,9 @@ function renderThemeSwitcher() {
 }
 
 function applyTheme(themeId) {
-  const theme = resumeData.themes.find((item) => item.id === themeId) || resumeData.themes[0];
+  const theme =
+    resumeData.themes.find((item) => item.id === themeId) ||
+    resumeData.themes[0];
   if (!theme) return;
 
   const root = document.documentElement;
@@ -866,19 +965,29 @@ function applyTheme(themeId) {
 
   const text100 = isDark ? "#f8fafc" : "#0f172a";
   const text200 = isDark ? "#e2e8f0" : "#1f2937";
-  const textMuted = isDark ? "rgba(196, 209, 232, 0.85)" : "rgba(71, 85, 105, 0.72)";
+  const textMuted = isDark
+    ? "rgba(196, 209, 232, 0.85)"
+    : "rgba(71, 85, 105, 0.72)";
   const text100Rgb = rgbToString(hexToRgb(text100));
   const text200Rgb = rgbToString(hexToRgb(text200));
   const textMutedRgb = extractRgbValues(textMuted);
 
   const navBgHex = isDark ? bgMid : "#ffffff";
   const navBg = rgbToString(hexToRgb(navBgHex));
-  const navBorder = toRgba(isDark ? "#ffffff" : "#0f172a", isDark ? 0.12 : 0.16);
-  const navLink = isDark ? "rgba(255, 255, 255, 0.88)" : "rgba(15, 23, 42, 0.82)";
+  const navBorder = toRgba(
+    isDark ? "#ffffff" : "#0f172a",
+    isDark ? 0.12 : 0.16
+  );
+  const navLink = isDark
+    ? "rgba(255, 255, 255, 0.88)"
+    : "rgba(15, 23, 42, 0.82)";
 
   const cardBg = toRgba(surfaceAlt, isDark ? 0.92 : 0.97);
   const cardBgAlt = toRgba(surfaceElevated, isDark ? 0.96 : 0.98);
-  const cardOverlay = toRgba(isDark ? "#ffffff" : "#000000", isDark ? 0.04 : 0.08);
+  const cardOverlay = toRgba(
+    isDark ? "#ffffff" : "#000000",
+    isDark ? 0.04 : 0.08
+  );
 
   const quickLinkBg = toRgba(primary, isDark ? 0.24 : 0.32);
   const quickLinkHover = toRgba(primary, isDark ? 0.34 : 0.42);
@@ -887,23 +996,59 @@ function applyTheme(themeId) {
   const contactBg = toRgba(surfaceElevated, isDark ? 0.96 : 0.99);
   const footerBg = isDark ? toRgba(bgMid, 0.9) : toRgba("#ffffff", 0.94);
   const footerText = isDark ? toRgba(text200, 0.72) : toRgba(text200, 0.82);
-  const footerBorder = toRgba(isDark ? "#ffffff" : "#0f172a", isDark ? 0.18 : 0.12);
+  const footerBorder = toRgba(
+    isDark ? "#ffffff" : "#0f172a",
+    isDark ? 0.18 : 0.12
+  );
 
-  const glassSurface = isDark ? toRgba("#ffffff", 0.26) : toRgba("#ffffff", 0.82);
-  const glassSurfaceElevated = isDark ? toRgba("#ffffff", 0.36) : toRgba("#ffffff", 0.9);
-  const glassBorder = isDark ? toRgba("#ffffff", 0.36) : toRgba("#000000", 0.16);
+  const glassSurface = isDark
+    ? toRgba("#ffffff", 0.26)
+    : toRgba("#ffffff", 0.82);
+  const glassSurfaceElevated = isDark
+    ? toRgba("#ffffff", 0.36)
+    : toRgba("#ffffff", 0.9);
+  const glassBorder = isDark
+    ? toRgba("#ffffff", 0.36)
+    : toRgba("#000000", 0.16);
   const glassHighlight = toRgba(accent, isDark ? 0.4 : 0.32);
-  const glassGradient = `linear-gradient(135deg, ${toRgba(primary, isDark ? 0.3 : 0.24)}, ${toRgba(accent, isDark ? 0.22 : 0.18)})`;
+  const glassGradient = `linear-gradient(135deg, ${toRgba(
+    primary,
+    isDark ? 0.3 : 0.24
+  )}, ${toRgba(accent, isDark ? 0.22 : 0.18)})`;
 
-  const borderSoft = toRgba(isDark ? "#ffffff" : "#0f172a", isDark ? 0.08 : 0.12);
-  const borderStrong = toRgba(isDark ? "#ffffff" : "#0f172a", isDark ? 0.18 : 0.18);
+  const borderSoft = toRgba(
+    isDark ? "#ffffff" : "#0f172a",
+    isDark ? 0.08 : 0.12
+  );
+  const borderStrong = toRgba(
+    isDark ? "#ffffff" : "#0f172a",
+    isDark ? 0.18 : 0.18
+  );
 
-  const gradientBody = `radial-gradient(circle at 20% 20%, ${toRgba(primary, 0.22)}, transparent 55%), radial-gradient(circle at 80% 0%, ${toRgba(accent, 0.18)}, transparent 45%), ${background}`;
-  const gradientHero = `radial-gradient(circle at top, ${toRgba(primary, 0.4)}, transparent 65%), radial-gradient(circle at bottom, ${toRgba(secondary, 0.3)}, transparent 60%)`;
+  const gradientBody = `radial-gradient(circle at 20% 20%, ${toRgba(
+    primary,
+    0.22
+  )}, transparent 55%), radial-gradient(circle at 80% 0%, ${toRgba(
+    accent,
+    0.18
+  )}, transparent 45%), ${background}`;
+  const gradientHero = `radial-gradient(circle at top, ${toRgba(
+    primary,
+    0.4
+  )}, transparent 65%), radial-gradient(circle at bottom, ${toRgba(
+    secondary,
+    0.3
+  )}, transparent 60%)`;
 
-  const shadowSoft = `0 25px 60px ${toRgba(adjustLightness(background, isDark ? -35 : -45), 0.5)}`;
+  const shadowSoft = `0 25px 60px ${toRgba(
+    adjustLightness(background, isDark ? -35 : -45),
+    0.5
+  )}`;
   const shadowGlow = `0 0 40px ${toRgba(primary, 0.45)}`;
-  const shadowFloat = `0 35px 70px ${toRgba(adjustLightness(background, isDark ? -40 : -55), isDark ? 0.45 : 0.35)}`;
+  const shadowFloat = `0 35px 70px ${toRgba(
+    adjustLightness(background, isDark ? -40 : -55),
+    isDark ? 0.45 : 0.35
+  )}`;
 
   setVar("--color-bg-main", background);
   setVar("--color-bg-mid", bgMid);
@@ -1093,7 +1238,9 @@ function hslToHex(h, s, l) {
   }
 
   const toHex = (x) => {
-    const hex = Math.round(x * 255).toString(16).padStart(2, "0");
+    const hex = Math.round(x * 255)
+      .toString(16)
+      .padStart(2, "0");
     return hex;
   };
 
